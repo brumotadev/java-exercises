@@ -1,8 +1,7 @@
 ## :coffee: Java Exercises
 
 <p align=center>
-<a href="https://docs.oracle.com/javase/8/docs/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
-"></a>
+<a href="https://docs.oracle.com/javase/8/docs/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></a>
 </p>
 
 ## :computer: Projeto
