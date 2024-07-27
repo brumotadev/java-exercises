@@ -1,18 +1,19 @@
-## Getting Started
+## :coffee: Java Exercises
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p align=center>
+<a href="https://docs.oracle.com/javase/8/docs/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
+"></a>
+</p>
 
-## Folder Structure
+## :computer: Projeto
 
-The workspace contains two folders by default, where:
+Exercicios em Java para praticar lógica de programação e algoritmos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## :wrench: Tecnologias e Ferramentas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Visual Studio Code
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 👨‍💻 Author
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<a href="https://github.com/brumotadev"><img src="https://avatars.githubusercontent.com/u/161054021?v=4" height="100px"> <p>Bruno Mota</p></a>
