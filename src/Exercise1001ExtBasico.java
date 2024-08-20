@@ -13,6 +13,6 @@ public class Exercise1001ExtBasico {
 
         System.out.println("X = " + soma);
 
-        
+        scanner.close();
     }
 }
