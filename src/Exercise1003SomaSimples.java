@@ -18,6 +18,6 @@ public class Exercise1003SomaSimples {
 
         System.out.printf("SOMA = %d%n", soma);
 
-    
+        scanner.close();
     }
 }
