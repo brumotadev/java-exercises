@@ -12,5 +12,16 @@ public class Exercise1004ProdutoSimples {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        int valorA = scanner.nextInt();
+        int valorB = scanner.nextInt();
+
+        int prod = valorA * valorB;
+
+        System.out.printf("PROD = %d%n", prod);
+
+        scanner.close();
+
     }
 }
