@@ -1,3 +1,5 @@
+import java.util.Locale;
+import java.util.Scanner;
 
 /**
  * Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. 
@@ -8,6 +10,15 @@
 public class Exercise1005Media1 {
 
     public static void main(String[] args) {
-        
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        double valorA = scanner.nextDouble();
+        double valorB = scanner.nextDouble();
+
+        double media = ((valorA * 3.5) + (valorB * 7.5)) / 11;
+
+        System.out.printf("MEDIA = %.5f", media);
+
+        scanner.close();
     }
 }
