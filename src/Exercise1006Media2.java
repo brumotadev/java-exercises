@@ -1,4 +1,5 @@
-
+import java.util.Locale;
+import java.util.Scanner;
 
 /**
  * Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. 
@@ -10,6 +11,16 @@
 public class Exercise1006Media2 {
 
     public static void main(String[] args) {
-        
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        double valorA = scanner.nextDouble();
+        double valorB = scanner.nextDouble();
+        double valorC = scanner.nextDouble();
+
+        double media = ((valorA * 2) + (valorB * 3) + (valorC * 5)) / 10;
+
+        System.out.printf("MEDIA = %.1f%n", media);
+
+        scanner.close();
     }
 }
