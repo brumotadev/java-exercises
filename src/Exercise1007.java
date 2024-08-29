@@ -9,5 +9,16 @@ public class Exercise1007 {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        int valorA = scanner.nextInt();
+        int valorB = scanner.nextInt();
+        int valorC = scanner.nextInt();
+        int valorD = scanner.nextInt();
+
+        int diferenca = (valorA * valorB) - (valorC * valorD);
+
+        System.out.printf("DIFERENCA = %d%n", diferenca);
+
+        scanner.close();
     }
 }
