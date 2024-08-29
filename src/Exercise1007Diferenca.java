@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercise1007 {
+public class Exercise1007Diferenca {
 
     /**
      * Leia quatro valores inteiros A, B, C e D. 
