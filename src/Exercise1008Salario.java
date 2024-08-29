@@ -1,4 +1,4 @@
-public class Exercise1008 {
+public class Exercise1008Salario {
 
 
     /**
