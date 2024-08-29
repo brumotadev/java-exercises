@@ -1,4 +1,4 @@
-public class Exercise1011 {
+public class Exercise1010CalculoSimples {
 
     public static void main(String[] args) {
         System.out.println();
