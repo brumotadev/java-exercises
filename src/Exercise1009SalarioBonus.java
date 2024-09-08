@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Exercise1009SalarioBonus {
 
 
@@ -6,6 +8,10 @@ public class Exercise1009SalarioBonus {
      * Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Hello World!");
+
+        scanner.close();
     }
 }
