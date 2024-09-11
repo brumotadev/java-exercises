@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.Locale;
+
 
 public class Exercise1009SalarioBonus {
 
@@ -8,9 +10,15 @@ public class Exercise1009SalarioBonus {
      * Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Hello World!");
+        String nome = scanner.nextLine();
+        double salarioFixo = scanner.nextDouble();
+        double totalVendas = scanner.nextDouble();
+
+        double salarioTotal = (totalVendas * 0.15) + salarioFixo;
+
+        System.out.printf("TOTAL = R$ %.2f\n", salarioTotal);
 
         scanner.close();
     }
